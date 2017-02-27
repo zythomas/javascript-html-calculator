@@ -7,7 +7,7 @@ function display(userInput){
 }
 
 function calculate(){
-    var answer = eval(document.getElementById("display-bar").innerHTML)
+    var answer = eval(document.getElementById("display-bar").value)
     document.getElementById("display-bar").value = answer; 
 }
 
